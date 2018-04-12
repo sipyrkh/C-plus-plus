@@ -1,0 +1,58 @@
+﻿Сборка начата 23.12.2016 12:05:05.
+     1>Проект "C:\Users\sipyr\Desktop\OOP_KURSACH\OOP_KURSACH\OOP_KURSACH.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ambulatory.cpp Doctors.cpp Interface.cpp Login.cpp main.cpp Med_Personal.cpp Med_Sisters.cpp Patients.cpp People.cpp Stack.cpp Stationary.cpp
+         Stationary.cpp
+         Stack.cpp
+         People.cpp
+         Patients.cpp
+         Med_Sisters.cpp
+         Med_Personal.cpp
+         main.cpp
+     1>c:\users\sipyr\desktop\oop_kursach\oop_kursach\stack.cpp(8): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\stack.cpp(7): при компиляции функции-члена "Stack<T>::Stack(void)" класса шаблон
+                 with
+                 [
+                     T=Doctors
+                 ]
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\interface.cpp(72): см. ссылку на создание экземпляров функции шаблон при компиляции "Stack<T>::Stack(void)"
+                 with
+                 [
+                     T=Doctors
+                 ]
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\interface.cpp(72): см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<T>"
+                 with
+                 [
+                     T=Doctors
+                 ]
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\interface.cpp(70): при компиляции функции-члена "void Interface<Doctors>::fun_do(std::string)" класса шаблон
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\interface.cpp(33): см. ссылку на создание экземпляров функции шаблон при компиляции "void Interface<Doctors>::fun_do(std::string)"
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\interface.cpp(32): см. ссылку на создание экземпляров класса шаблон при компиляции "Interface<Doctors>"
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\interface.cpp(8): при компиляции функции-члена "void Interface<int>::menu(void)" класса шаблон
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\main.cpp(20): см. ссылку на создание экземпляров функции шаблон при компиляции "void Interface<int>::menu(void)"
+                 c:\users\sipyr\desktop\oop_kursach\oop_kursach\main.cpp(18): см. ссылку на создание экземпляров класса шаблон при компиляции "Interface<int>"
+         Login.cpp
+         Interface.cpp
+         Doctors.cpp
+         Ambulatory.cpp
+         Создание кода...
+     1>c:\users\sipyr\desktop\oop_kursach\oop_kursach\login.cpp(101): warning C4715: Login::login_menu: значение возвращается не при всех путях выполнения
+     1>c:\users\sipyr\desktop\oop_kursach\oop_kursach\people.cpp(78): warning C4715: People::Check_string: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sipyr\Desktop\OOP_KURSACH\Debug\OOP_KURSACH.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sipyr\Desktop\OOP_KURSACH\Debug\OOP_KURSACH.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sipyr\Desktop\OOP_KURSACH\Debug\OOP_KURSACH.lib" /MACHINE:X86 Debug\Ambulatory.obj
+         Debug\Doctors.obj
+         Debug\Interface.obj
+         Debug\Login.obj
+         Debug\main.obj
+         Debug\Med_Personal.obj
+         Debug\Med_Sisters.obj
+         Debug\Patients.obj
+         Debug\People.obj
+         Debug\Stack.obj
+         Debug\Stationary.obj
+         OOP_KURSACH.vcxproj -> C:\Users\sipyr\Desktop\OOP_KURSACH\Debug\OOP_KURSACH.exe
+     1>Сборка проекта "C:\Users\sipyr\Desktop\OOP_KURSACH\OOP_KURSACH\OOP_KURSACH.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:11.59
